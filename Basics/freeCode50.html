@@ -1,0 +1,25 @@
+<html>
+  <head>
+
+    <title>Local Scope and Functions</title>
+  </head>
+   <body>
+       <script>  
+
+function myLocalScope() {
+  var myVar = 'use strict'; // you shouldn't need to edit this line
+  
+  console.log(myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+var myVar = myLocalScope; 
+
+// Now remove the console log line to pass the test
+
+       </script>
+
+   </body>
+</html>
