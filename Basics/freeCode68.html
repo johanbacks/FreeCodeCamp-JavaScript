@@ -5,21 +5,25 @@
   </head>
    <body>
        <script>  
-function testLogicalAnd(val) {
+function testLogicalOr(val) {
   // Only change code below this line
 
-if (val <= 50 && val >= 25) {
-  return "Yes";
-}
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
 
+  if (val) {
+    return "Outside";
+  }
 
   // Only change code above this line
-  return "No";
+  return "Inside";
 }
 
 // Change this value to test
-testLogicalAnd(25);
-console.log(testLogicalAnd());
+testLogicalOr(15);
+console.log(testLogicalOr());
+
 
 
        </script>
