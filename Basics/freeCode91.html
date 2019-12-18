@@ -1,0 +1,27 @@
+<html>
+  <head>
+
+    <title>Accessing Nested Objects</title>
+  </head>
+   <body>
+       <script>  
+// Setup
+var myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"]; // Change this line
+
+
+       </script>
+
+   </body>
+</html>
