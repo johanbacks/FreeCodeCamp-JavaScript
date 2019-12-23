@@ -1,0 +1,17 @@
+<html>
+  <head>
+
+    <title>Use the Rest Parameter with Function Parameters</title>
+  </head>
+   <body>
+       <script>  
+const sum = (...args) => {
+  
+  return args.reduce((a, b) => a + b, 0);
+}
+console.log(sum(1, 2, 3)); // 6
+
+
+</script>
+   </body>
+</html>
