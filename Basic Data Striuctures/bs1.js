@@ -1,0 +1,1 @@
+let yourArray = ["string1","string2", 1 ,2 , true]
