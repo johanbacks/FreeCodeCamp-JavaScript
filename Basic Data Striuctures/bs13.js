@@ -8,7 +8,7 @@ let userActivity = {
 };
 
 // change code below this line
-
+userActivity.data.online = 45;
 // change code above this line
 
 console.log(userActivity);
